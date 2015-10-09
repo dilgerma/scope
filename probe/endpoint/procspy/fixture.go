@@ -1,7 +1,7 @@
 package procspy
 
 import (
-	"github.com/weaveworks/scope/probe/process"
+	"github.com/dilgerma/scope/probe/process"
 )
 
 // SetFixtures declares constant Connection and ConnectionProcs which will

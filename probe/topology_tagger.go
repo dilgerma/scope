@@ -1,7 +1,7 @@
 package probe
 
 import (
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 // Topology is the Node key for the origin topology.

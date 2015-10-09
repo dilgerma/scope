@@ -12,7 +12,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/weaveworks/scope/common/sanitize"
+	"github.com/dilgerma/scope/common/sanitize"
 )
 
 const (

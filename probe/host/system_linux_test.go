@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/weaveworks/scope/probe/host"
+	"github.com/dilgerma/scope/probe/host"
 )
 
 func TestUname(t *testing.T) {

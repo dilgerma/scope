@@ -6,7 +6,7 @@ package procspy
 import (
 	"net"
 
-	"github.com/weaveworks/scope/probe/process"
+	"github.com/dilgerma/scope/probe/process"
 )
 
 const (

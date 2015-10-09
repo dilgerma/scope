@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 const maxConcurrentGET = 10

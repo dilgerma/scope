@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/weaveworks/scope/common/exec"
-	"github.com/weaveworks/scope/common/sanitize"
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/common/exec"
+	"github.com/dilgerma/scope/common/sanitize"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/report"
 )
 
 const (

@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/weaveworks/scope/render"
-	"github.com/weaveworks/scope/test"
-	"github.com/weaveworks/scope/test/fixture"
+	"github.com/dilgerma/scope/render"
+	"github.com/dilgerma/scope/test"
+	"github.com/dilgerma/scope/test/fixture"
 )
 
 func TestOriginTable(t *testing.T) {

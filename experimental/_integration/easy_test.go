@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 func TestComponentsAreAvailable(t *testing.T) {

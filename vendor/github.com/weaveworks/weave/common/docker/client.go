@@ -4,7 +4,7 @@ import (
 	"errors"
 	"github.com/fsouza/go-dockerclient"
 
-	. "github.com/weaveworks/weave/common"
+	. "github.com/dilgerm/weave/common"
 )
 
 // An observer for container events

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/weaveworks/scope/common/exec"
-	"github.com/weaveworks/scope/test"
-	testexec "github.com/weaveworks/scope/test/exec"
+	"github.com/dilgerma/scope/common/exec"
+	"github.com/dilgerma/scope/test"
+	testexec "github.com/dilgerma/scope/test/exec"
 )
 
 const conntrackCloseTag = "</conntrack>\n"

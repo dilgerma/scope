@@ -16,17 +16,17 @@ import (
 	"github.com/armon/go-metrics"
 	"github.com/weaveworks/weave/common"
 
-	"github.com/weaveworks/scope/common/hostname"
-	"github.com/weaveworks/scope/probe"
-	"github.com/weaveworks/scope/probe/controls"
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/endpoint"
-	"github.com/weaveworks/scope/probe/host"
-	"github.com/weaveworks/scope/probe/kubernetes"
-	"github.com/weaveworks/scope/probe/overlay"
-	"github.com/weaveworks/scope/probe/process"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/xfer"
+	"github.com/dilgerma/scope/common/hostname"
+	"github.com/dilgerma/scope/probe"
+	"github.com/dilgerma/scope/probe/controls"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/endpoint"
+	"github.com/dilgerma/scope/probe/host"
+	"github.com/dilgerma/scope/probe/kubernetes"
+	"github.com/dilgerma/scope/probe/overlay"
+	"github.com/dilgerma/scope/probe/process"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/xfer"
 )
 
 // Main runs the probe

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 // Make sure we don't add a topology and miss it in the Topologies method.

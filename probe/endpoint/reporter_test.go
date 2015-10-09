@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/endpoint"
-	"github.com/weaveworks/scope/probe/endpoint/procspy"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/endpoint"
+	"github.com/dilgerma/scope/probe/endpoint/procspy"
+	"github.com/dilgerma/scope/report"
 )
 
 var (

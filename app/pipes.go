@@ -9,8 +9,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/weaveworks/scope/common/mtime"
-	"github.com/weaveworks/scope/xfer"
+	"github.com/dilgerma/scope/common/mtime"
+	"github.com/dilgerma/scope/xfer"
 )
 
 const (

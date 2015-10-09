@@ -7,7 +7,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
 
-	"github.com/weaveworks/scope/render"
+	"github.com/dilgerma/scope/render"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/weaveworks/scope/common/exec"
+	"github.com/dilgerma/scope/common/exec"
 )
 
 const (

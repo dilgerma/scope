@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/weaveworks/scope/render"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
+	"github.com/dilgerma/scope/render"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
 )
 
 func TestMergeRenderableNodes(t *testing.T) {

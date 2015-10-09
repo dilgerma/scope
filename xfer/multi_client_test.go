@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/weaveworks/scope/xfer"
+	"github.com/dilgerma/scope/xfer"
 )
 
 type mockClient struct {

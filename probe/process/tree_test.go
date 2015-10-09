@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/weaveworks/scope/probe/process"
+	"github.com/dilgerma/scope/probe/process"
 )
 
 func TestTree(t *testing.T) {

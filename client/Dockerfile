@@ -1,4 +1,4 @@
-FROM node:4.2.2
+FROM hypriot/rpi-node
 WORKDIR /home/weave
 COPY package.json /home/weave/
 ENV NPM_CONFIG_LOGLEVEL warn

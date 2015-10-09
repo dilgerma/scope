@@ -3,9 +3,9 @@ package render
 import (
 	"fmt"
 
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/process"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/process"
+	"github.com/dilgerma/scope/report"
 )
 
 // EndpointRenderer is a Renderer which produces a renderable endpoint graph.

@@ -11,9 +11,9 @@ import (
 	"github.com/PuerkitoBio/ghost/handlers"
 	"github.com/gorilla/mux"
 
-	"github.com/weaveworks/scope/common/hostname"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/xfer"
+	"github.com/dilgerma/scope/common/hostname"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/xfer"
 )
 
 var (

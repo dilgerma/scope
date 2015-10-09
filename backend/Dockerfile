@@ -1,4 +1,4 @@
-FROM golang:1.5.1
+FROM dilgerm/rpi-golang:jessie
 ENV GO15VENDOREXPERIMENT 1
 RUN apt-get update && apt-get install -y libpcap-dev python-pip
 RUN pip install requests

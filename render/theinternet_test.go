@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/weaveworks/scope/probe/host"
-	"github.com/weaveworks/scope/render"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
+	"github.com/dilgerma/scope/probe/host"
+	"github.com/dilgerma/scope/render"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
 )
 
 func TestReportLocalNetworks(t *testing.T) {

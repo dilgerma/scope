@@ -5,11 +5,11 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/host"
-	"github.com/weaveworks/scope/probe/overlay"
-	"github.com/weaveworks/scope/probe/process"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/host"
+	"github.com/dilgerma/scope/probe/overlay"
+	"github.com/dilgerma/scope/probe/process"
+	"github.com/dilgerma/scope/report"
 )
 
 const (

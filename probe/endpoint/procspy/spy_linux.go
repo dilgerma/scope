@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/weaveworks/scope/probe/process"
+	"github.com/dilgerma/scope/probe/process"
 )
 
 var bufPool = sync.Pool{

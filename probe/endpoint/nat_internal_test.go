@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
 )
 
 type mockFlowWalker struct {

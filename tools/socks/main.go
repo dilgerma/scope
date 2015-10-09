@@ -10,7 +10,7 @@ import (
 
 	socks5 "github.com/armon/go-socks5"
 	"github.com/docker/docker/pkg/mflag"
-	"github.com/weaveworks/weave/common/mflagext"
+	"github.com/dilgerma/weave/common/mflagext"
 )
 
 type pacFileParameters struct {

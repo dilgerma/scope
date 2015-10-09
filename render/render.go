@@ -1,7 +1,7 @@
 package render
 
 import (
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 // Renderer is something that can render a report to a set of RenderableNodes.

@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/weaveworks/scope/app"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
+	"github.com/dilgerma/scope/app"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
 )
 
 func TestCollector(t *testing.T) {

@@ -7,12 +7,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/weaveworks/scope/common/exec"
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/overlay"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
-	testExec "github.com/weaveworks/scope/test/exec"
+	"github.com/dilgerma/scope/common/exec"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/overlay"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
+	testExec "github.com/dilgerma/scope/test/exec"
 )
 
 func TestWeaveTaggerOverlayTopology(t *testing.T) {

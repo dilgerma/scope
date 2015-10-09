@@ -11,8 +11,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/weaveworks/scope/app"
-	"github.com/weaveworks/scope/xfer"
+	"github.com/dilgerma/scope/app"
+	"github.com/dilgerma/scope/xfer"
 )
 
 func TestControl(t *testing.T) {

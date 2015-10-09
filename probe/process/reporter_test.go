@@ -4,9 +4,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/weaveworks/scope/probe/process"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
+	"github.com/dilgerma/scope/common/mtime"
+	"github.com/dilgerma/scope/probe/process"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
 )
 
 type mockWalker struct {

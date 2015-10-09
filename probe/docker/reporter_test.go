@@ -6,9 +6,9 @@ import (
 
 	client "github.com/fsouza/go-dockerclient"
 
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
 )
 
 type mockRegistry struct {

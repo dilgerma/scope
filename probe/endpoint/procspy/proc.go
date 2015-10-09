@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/weaveworks/scope/common/fs"
-	"github.com/weaveworks/scope/probe/process"
+	"github.com/dilgerma/scope/common/fs"
+	"github.com/dilgerma/scope/probe/process"
 )
 
 var (

@@ -3,8 +3,8 @@ package render
 import (
 	"net"
 
-	"github.com/weaveworks/scope/probe/host"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe/host"
+	"github.com/dilgerma/scope/report"
 )
 
 // LocalNetworks returns a superset of the networks (think: CIDRs) that are

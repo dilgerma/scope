@@ -3,7 +3,7 @@ package controls
 import (
 	"sync"
 
-	"github.com/weaveworks/scope/xfer"
+	"github.com/dilgerma/scope/xfer"
 )
 
 var (

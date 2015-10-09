@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/weaveworks/scope/probe/controls"
-	"github.com/weaveworks/scope/test"
-	"github.com/weaveworks/scope/xfer"
+	"github.com/dilgerma/scope/probe/controls"
+	"github.com/dilgerma/scope/test"
+	"github.com/dilgerma/scope/xfer"
 )
 
 func TestControls(t *testing.T) {

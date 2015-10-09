@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/weaveworks/scope/common/mtime"
+	"github.com/dilgerma/scope/common/mtime"
 )
 
 // Controls describe the control tags within the Nodes

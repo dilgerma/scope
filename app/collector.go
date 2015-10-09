@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 // Reporter is something that can produce reports on demand. It's a convenient

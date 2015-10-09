@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/weaveworks/scope/common/mtime"
-	"github.com/weaveworks/scope/probe/host"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
+	"github.com/dilgerma/scope/common/mtime"
+	"github.com/dilgerma/scope/probe/host"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
 )
 
 func TestReporter(t *testing.T) {

@@ -13,8 +13,8 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/weaveworks/weave/common"
 
-	"github.com/weaveworks/scope/app"
-	"github.com/weaveworks/scope/xfer"
+	"github.com/dilgerma/scope/app"
+	"github.com/dilgerma/scope/xfer"
 )
 
 // Router creates the mux for all the various app components.

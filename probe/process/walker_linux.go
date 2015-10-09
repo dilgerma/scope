@@ -6,7 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/weaveworks/scope/common/fs"
+	"github.com/dilgerma/scope/common/fs"
+	"github.com/dilgerma/scope/probe/host"
 )
 
 type walker struct {

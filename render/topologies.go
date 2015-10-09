@@ -177,16 +177,7 @@ var ContainerHostnameRenderer = Map{
 	MapFunc: MapCountContainers,
 	Renderer: Map{
 		MapFunc: MapContainer2Hostname,
-		Renderer: MakeReduce(
-			Map{
-				MapFunc:  MapContainer2ContainerImage,
-				Renderer: ContainerRenderer,
-			},
-			Map{
-				MapFunc:  MapContainerImageIdentity,
-				Renderer: SelectContainerImage,
-			},
-		),
+		Renderer: ContainerRenderer,
 	},
 }
 

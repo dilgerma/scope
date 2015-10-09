@@ -222,7 +222,8 @@ func (c *container) GetNode(localAddrs []net.IP) report.Node {
 		ImageID:          c.container.Image,
 		ContainerIPs: strings.Join(append(c.container.NetworkSettings.SecondaryIPAddresses,
 			c.container.NetworkSettings.IPAddress), " "),
-		ContainerHostname: c.container.Config.Hostname,
+		ContainerHostname: fmt.Sprintf("%s.%s", c.container.Config.Hostname,
+			c.container.Config.Domainname),
 	})
 	AddLabels(result, c.container.Config.Labels)
 

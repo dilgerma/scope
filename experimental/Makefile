@@ -9,7 +9,7 @@ all: $(TARGETS)
 
 ifeq ($(BUILD_IN_CONTAINER),true)
 $(TARGETS):
-	$(SUDO) docker run -ti $(RM) -v $(shell pwd)/../:/go/src/github.com/weaveworks/scope -e GOARCH -e GOOS \
+	$(SUDO) docker run -ti $(RM) -v $(shell pwd)/../:$GOPATH/src/github.com/weaveworks/scope -e GOARCH -e GOOS \
 		weaveworks/scope-backend-build -C experimental $@
 else
 $(TARGETS):

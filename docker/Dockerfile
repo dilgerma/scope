@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM hypriot/rpi-alpine-scratch
 MAINTAINER Weaveworks Inc <help@weave.works>
 LABEL works.weave.role=system
 WORKDIR /home/weave

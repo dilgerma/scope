@@ -2,7 +2,7 @@
 
 # If you can use Docker without being root, you can `make SUDO= <target>`
 SUDO=$(shell docker info >/dev/null 2>&1 || echo "sudo -E")
-DOCKERHUB_USER=weaveworks
+DOCKERHUB_USER=dilgerm
 SCOPE_EXE=prog/scope
 SCOPE_IMAGE=$(DOCKERHUB_USER)/scope
 SCOPE_EXPORT=scope.tar
@@ -12,8 +12,8 @@ SCOPE_BACKEND_BUILD_IMAGE=$(DOCKERHUB_USER)/scope-backend-build
 SCOPE_BACKEND_BUILD_UPTODATE=.scope_backend_build.uptodate
 SCOPE_VERSION=$(shell git rev-parse --short HEAD)
 DOCKER_VERSION=1.6.2
-DOCKER_DISTRIB=.pkg/docker-$(DOCKER_VERSION).tgz
-DOCKER_DISTRIB_URL=https://get.docker.com/builds/Linux/x86_64/docker-$(DOCKER_VERSION).tgz
+DOCKER_DISTRIB=docker/docker-$(DOCKER_VERSION).tgz
+DOCKER_DISTRIB_URL=https://github.com/dilgerma/weave/blob/master/prog/weaveexec/docker.tgz
 RUNSVINIT=vendor/runsvinit/runsvinit
 CODECGEN_DIR=vendor/github.com/ugorji/go/codec/codecgen
 CODECGEN_EXE=$(CODECGEN_DIR)/bin/codecgen_$(shell go env GOHOSTOS)_$(shell go env GOHOSTARCH)
@@ -38,7 +38,7 @@ $(DOCKER_DISTRIB):
 	curl -o $(DOCKER_DISTRIB) $(DOCKER_DISTRIB_URL)
 
 docker/weave:
-	curl -L git.io/weave -o docker/weave
+	curl -L https://raw.githubusercontent.com/dilgerma/weave/master/weave -o docker/weave
 	chmod u+x docker/weave
 
 $(SCOPE_EXPORT): $(SCOPE_EXE) $(DOCKER_DISTRIB) docker/weave $(RUNSVINIT) docker/Dockerfile docker/run-app docker/run-probe docker/entrypoint.sh
@@ -48,6 +48,7 @@ $(SCOPE_EXPORT): $(SCOPE_EXE) $(DOCKER_DISTRIB) docker/weave $(RUNSVINIT) docker
 	$(SUDO) docker save $(SCOPE_IMAGE):latest > $@
 
 $(RUNSVINIT): vendor/runsvinit/*.go
+	go build -o $@ github.com/dilgerma/scope/vendor/runsvinit
 
 $(SCOPE_EXE): $(shell find ./ -path ./vendor -prune -o -type f -name *.go) prog/static.go $(CODECGEN_TARGETS)
 
@@ -62,10 +63,10 @@ ifeq ($(BUILD_IN_CONTAINER),true)
 $(SCOPE_EXE) $(RUNSVINIT) lint tests shell prog/static.go: $(SCOPE_BACKEND_BUILD_UPTODATE)
 	@mkdir -p $(shell pwd)/.pkg
 	$(SUDO) docker run $(RM) $(RUN_FLAGS) \
-		-v $(shell pwd):/go/src/github.com/weaveworks/scope \
-		-v $(shell pwd)/.pkg:/go/pkg \
+		-v $(shell pwd):$(GOPATH)/src/github.com/dilgerma/scope \
+		-v $(shell pwd)/.pkg:$(GOPATH)/pkg \
 		--net=host \
-		-e GOARCH -e GOOS -e CIRCLECI -e CIRCLE_BUILD_NUM -e CIRCLE_NODE_TOTAL \
+		-e GOPATH -e GOARCH -e GOOS -e CIRCLECI -e CIRCLE_BUILD_NUM -e CIRCLE_NODE_TOTAL \
 		-e CIRCLE_NODE_INDEX -e COVERDIR -e SLOW \
 		$(SCOPE_BACKEND_BUILD_IMAGE) SCOPE_VERSION=$(SCOPE_VERSION) GO_BUILD_INSTALL_DEPS=$(GO_BUILD_INSTALL_DEPS) $@
 

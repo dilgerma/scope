@@ -1,10 +1,11 @@
-FROM golang:1.6.2
+FROM dilgerm/rpi-golang:1.6.2
 RUN apt-get update && \
 	apt-get install -y libpcap-dev python-requests time file && \
 	rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+#RUN go clean -i net && go install -tags netgo std &&  go install -tags netgo std
 RUN go clean -i net && \
 	go install -tags netgo std && \
-	go install -race -tags netgo std
+	go install -tags netgo std
 RUN go get -tags netgo \
 		github.com/fzipp/gocyclo \
 		github.com/golang/lint/golint \

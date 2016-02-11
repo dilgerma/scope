@@ -59,10 +59,10 @@ ifeq ($(BUILD_IN_CONTAINER),true)
 $(SCOPE_EXE) $(RUNSVINIT) $(CODECGEN_TARGETS) $(CODECGEN_EXE) lint tests shell prog/static.go: $(SCOPE_BACKEND_BUILD_UPTODATE)
 	@mkdir -p $(shell pwd)/.pkg
 	$(SUDO) docker run $(RM) $(RUN_FLAGS) \
-		-v $(shell pwd):/go/src/github.com/dilgerma/scope \
-		-v $(shell pwd)/.pkg:/go/pkg \
+		-v $(shell pwd):$(GOPATH)/src/github.com/dilgerma/scope \
+		-v $(shell pwd)/.pkg:$(GOPATH)/pkg \
 		--net=host \
-		-e GOARCH -e GOOS -e CIRCLECI -e CIRCLE_BUILD_NUM -e CIRCLE_NODE_TOTAL \
+		-e GOPATH -e GOARCH -e GOOS -e CIRCLECI -e CIRCLE_BUILD_NUM -e CIRCLE_NODE_TOTAL \
 		-e CIRCLE_NODE_INDEX -e COVERDIR -e SLOW \
 		$(SCOPE_BACKEND_BUILD_IMAGE) SCOPE_VERSION=$(SCOPE_VERSION) GO_BUILD_INSTALL_DEPS=$(GO_BUILD_INSTALL_DEPS) $@
 

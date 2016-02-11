@@ -814,7 +814,7 @@
 			"path": "/odp"
 		},
 		{
-			"importpath": "github.com/dilgerma/weave/common",
+			"importpath": "github.com/weaveworks/weave/common",
 			"repository": "https://github.com/weaveworks/weave",
 			"revision": "29f3d711c65121f436a9d191af4633ba4600d0fd",
 			"branch": "master",

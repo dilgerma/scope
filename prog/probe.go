@@ -14,8 +14,8 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/armon/go-metrics"
-	"github.com/dilgerma/go-checkpoint"
-	"github.com/dilgerma/weave/common"
+	"github.com/weaveworks/go-checkpoint"
+	"github.com/weaveworks/weave/common"
 
 	"github.com/dilgerma/scope/common/hostname"
 	"github.com/dilgerma/scope/common/sanitize"

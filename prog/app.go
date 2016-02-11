@@ -10,8 +10,8 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/gorilla/mux"
-	"github.com/dilgerma/go-checkpoint"
-	"github.com/dilgerma/weave/common"
+	"github.com/weaveworks/go-checkpoint"
+	"github.com/weaveworks/weave/common"
 
 	"github.com/dilgerma/scope/app"
 	"github.com/dilgerma/scope/common/weave"

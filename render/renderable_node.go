@@ -1,7 +1,7 @@
 package render
 
 import (
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 // RenderableNode is the data type that's yielded to the JavaScript layer as

@@ -7,7 +7,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	docker_client "github.com/fsouza/go-dockerclient"
 
-	"github.com/weaveworks/scope/probe/controls"
+	"github.com/dilgerma/scope/probe/controls"
 )
 
 // Consts exported for testing.

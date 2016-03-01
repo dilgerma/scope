@@ -5,9 +5,9 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 
-	"github.com/weaveworks/scope/common/xfer"
-	"github.com/weaveworks/scope/probe/controls"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/common/xfer"
+	"github.com/dilgerma/scope/probe/controls"
+	"github.com/dilgerma/scope/report"
 )
 
 // Control IDs used by the docker intergation.

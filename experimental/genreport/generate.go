@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 func init() {

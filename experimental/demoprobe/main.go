@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/weaveworks/scope/common/xfer"
-	"github.com/weaveworks/scope/probe/appclient"
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/process"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/common/xfer"
+	"github.com/dilgerma/scope/probe/appclient"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/process"
+	"github.com/dilgerma/scope/report"
 )
 
 func main() {

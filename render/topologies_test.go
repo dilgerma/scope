@@ -4,13 +4,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/kubernetes"
-	"github.com/weaveworks/scope/render"
-	"github.com/weaveworks/scope/render/expected"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
-	"github.com/weaveworks/scope/test/fixture"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/kubernetes"
+	"github.com/dilgerma/scope/render"
+	"github.com/dilgerma/scope/render/expected"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
+	"github.com/dilgerma/scope/test/fixture"
 )
 
 func TestProcessRenderer(t *testing.T) {

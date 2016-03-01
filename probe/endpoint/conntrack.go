@@ -11,7 +11,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 
-	"github.com/weaveworks/scope/common/exec"
+	"github.com/dilgerma/scope/common/exec"
 )
 
 const (

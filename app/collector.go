@@ -8,7 +8,7 @@ import (
 	"github.com/spaolacci/murmur3"
 	"golang.org/x/net/context"
 
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 // Reporter is something that can produce reports on demand. It's a convenient

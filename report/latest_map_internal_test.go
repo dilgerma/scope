@@ -7,8 +7,8 @@ import (
 
 	"github.com/ugorji/go/codec"
 
-	"github.com/weaveworks/scope/test"
-	"github.com/weaveworks/scope/test/reflect"
+	"github.com/dilgerma/scope/test"
+	"github.com/dilgerma/scope/test/reflect"
 )
 
 func TestLatestMapAdd(t *testing.T) {

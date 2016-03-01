@@ -3,8 +3,8 @@ package detailed
 import (
 	"sort"
 
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/report"
 )
 
 // NodeDockerLabels produces a table (to be consumed directly by the UI) based

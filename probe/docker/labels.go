@@ -3,7 +3,7 @@ package docker
 import (
 	"strings"
 
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 // LabelPrefix is the key prefix used for Docker labels in Node (e.g. a

@@ -10,13 +10,13 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/gorilla/mux"
-	"github.com/weaveworks/go-checkpoint"
-	"github.com/weaveworks/weave/common"
+	"github.com/dilgerma/go-checkpoint"
+	"github.com/dilgerma/weave/common"
 
-	"github.com/weaveworks/scope/app"
-	"github.com/weaveworks/scope/common/weave"
-	"github.com/weaveworks/scope/common/xfer"
-	"github.com/weaveworks/scope/probe/docker"
+	"github.com/dilgerma/scope/app"
+	"github.com/dilgerma/scope/common/weave"
+	"github.com/dilgerma/scope/common/xfer"
+	"github.com/dilgerma/scope/probe/docker"
 )
 
 // Router creates the mux for all the various app components.

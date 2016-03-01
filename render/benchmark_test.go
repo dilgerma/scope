@@ -7,9 +7,9 @@ import (
 
 	"github.com/ugorji/go/codec"
 
-	"github.com/weaveworks/scope/render"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test/fixture"
+	"github.com/dilgerma/scope/render"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test/fixture"
 )
 
 var (

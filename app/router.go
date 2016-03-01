@@ -12,9 +12,9 @@ import (
 	"github.com/ugorji/go/codec"
 	"golang.org/x/net/context"
 
-	"github.com/weaveworks/scope/common/hostname"
-	"github.com/weaveworks/scope/common/xfer"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/common/hostname"
+	"github.com/dilgerma/scope/common/xfer"
+	"github.com/dilgerma/scope/report"
 )
 
 var (

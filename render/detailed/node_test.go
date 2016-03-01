@@ -5,13 +5,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/host"
-	"github.com/weaveworks/scope/probe/process"
-	"github.com/weaveworks/scope/render"
-	"github.com/weaveworks/scope/render/detailed"
-	"github.com/weaveworks/scope/test"
-	"github.com/weaveworks/scope/test/fixture"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/host"
+	"github.com/dilgerma/scope/probe/process"
+	"github.com/dilgerma/scope/render"
+	"github.com/dilgerma/scope/render/detailed"
+	"github.com/dilgerma/scope/test"
+	"github.com/dilgerma/scope/test/fixture"
 )
 
 func TestMakeDetailedHostNode(t *testing.T) {

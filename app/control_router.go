@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/weaveworks/scope/common/xfer"
+	"github.com/dilgerma/scope/common/xfer"
 )
 
 // ControlRouter is a thing that can route control requests and responses

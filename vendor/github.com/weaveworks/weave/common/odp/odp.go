@@ -5,7 +5,7 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/weaveworks/go-odp/odp"
+	"github.com/dilgerma/go-odp/odp"
 )
 
 // ODP admin functionality

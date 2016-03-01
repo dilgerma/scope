@@ -14,9 +14,9 @@ import (
 	"github.com/ugorji/go/codec"
 	"golang.org/x/net/context"
 
-	"github.com/weaveworks/scope/app"
-	"github.com/weaveworks/scope/test"
-	"github.com/weaveworks/scope/test/fixture"
+	"github.com/dilgerma/scope/app"
+	"github.com/dilgerma/scope/test"
+	"github.com/dilgerma/scope/test/fixture"
 )
 
 type v map[string]string

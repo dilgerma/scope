@@ -11,8 +11,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/process"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/process"
 )
 
 func respondWith(w http.ResponseWriter, code int, response interface{}) {

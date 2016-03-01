@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	fs_hook "github.com/weaveworks/scope/common/fs"
-	"github.com/weaveworks/scope/probe/process"
-	"github.com/weaveworks/scope/test"
+	fs_hook "github.com/dilgerma/scope/common/fs"
+	"github.com/dilgerma/scope/probe/process"
+	"github.com/dilgerma/scope/test"
 )
 
 func TestLinuxConnections(t *testing.T) {

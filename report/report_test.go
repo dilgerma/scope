@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 func newu64(value uint64) *uint64 { return &value }

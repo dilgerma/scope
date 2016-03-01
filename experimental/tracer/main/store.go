@@ -8,7 +8,7 @@ import (
 
 	"github.com/msackman/skiplist"
 
-	"github.com/weaveworks/scope/experimental/tracer/ptrace"
+	"github.com/dilgerma/scope/experimental/tracer/ptrace"
 )
 
 const epsilon = int64(5) * 1000 // milliseconds

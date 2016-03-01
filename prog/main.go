@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	log "github.com/Sirupsen/logrus"
-	weavecommon "github.com/weaveworks/weave/common"
+	weavecommon "github.com/dilgerma/weave/common"
 )
 
 var version = "dev" // set at build time

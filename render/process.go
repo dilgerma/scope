@@ -3,10 +3,10 @@ package render
 import (
 	"net"
 
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/endpoint"
-	"github.com/weaveworks/scope/probe/process"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/endpoint"
+	"github.com/dilgerma/scope/probe/process"
+	"github.com/dilgerma/scope/report"
 )
 
 // Constants are used in the tests.
@@ -92,7 +92,7 @@ func MapEndpoint2Pseudo(n report.Node, local report.Networks) report.Nodes {
 		// internet node
 		node = theInternetNode(n)
 	} else {
-		// due to https://github.com/weaveworks/scope/issues/1323 we are dropping
+		// due to https://github.com/dilgerma/scope/issues/1323 we are dropping
 		// all non-internet pseudo nodes for now.
 		// node = NewDerivedPseudoNode(MakePseudoNodeID(addr), n)
 		return report.Nodes{}

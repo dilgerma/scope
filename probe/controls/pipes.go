@@ -5,7 +5,7 @@ import (
 	"io"
 	"math/rand"
 
-	"github.com/weaveworks/scope/common/xfer"
+	"github.com/dilgerma/scope/common/xfer"
 )
 
 // PipeClient is the type of the thing the probe uses to make pipe connections.

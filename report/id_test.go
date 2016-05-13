@@ -3,7 +3,7 @@ package report_test
 import (
 	"testing"
 
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 var (

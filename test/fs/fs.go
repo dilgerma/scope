@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/weaveworks/scope/common/fs"
+	"github.com/dilgerma/scope/common/fs"
 )
 
 type mockInode struct{}

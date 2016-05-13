@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/weaveworks/scope/test/reflect"
+	"github.com/dilgerma/scope/test/reflect"
 )
 
 var benchmarkResult PluginSpecs

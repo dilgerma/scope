@@ -13,8 +13,8 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/ugorji/go/codec"
 
-	"github.com/weaveworks/scope/common/sanitize"
-	"github.com/weaveworks/scope/common/xfer"
+	"github.com/dilgerma/scope/common/sanitize"
+	"github.com/dilgerma/scope/common/xfer"
 )
 
 const (

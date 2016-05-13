@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/weaveworks/scope/probe/endpoint"
-	"github.com/weaveworks/scope/render"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe/endpoint"
+	"github.com/dilgerma/scope/render"
+	"github.com/dilgerma/scope/report"
 )
 
 const (

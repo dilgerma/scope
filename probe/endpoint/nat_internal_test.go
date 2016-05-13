@@ -3,10 +3,10 @@ package endpoint
 import (
 	"testing"
 
-	"github.com/weaveworks/scope/common/mtime"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
-	"github.com/weaveworks/scope/test/reflect"
+	"github.com/dilgerma/scope/common/mtime"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
+	"github.com/dilgerma/scope/test/reflect"
 )
 
 type mockFlowWalker struct {

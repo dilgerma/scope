@@ -14,8 +14,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/sqs"
 	"golang.org/x/net/context"
 
-	"github.com/weaveworks/scope/app"
-	"github.com/weaveworks/scope/common/xfer"
+	"github.com/dilgerma/scope/app"
+	"github.com/dilgerma/scope/common/xfer"
 )
 
 var (

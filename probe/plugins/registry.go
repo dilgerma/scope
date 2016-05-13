@@ -16,10 +16,10 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/net/context/ctxhttp"
 
-	"github.com/weaveworks/scope/common/backoff"
-	"github.com/weaveworks/scope/common/fs"
-	"github.com/weaveworks/scope/common/xfer"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/common/backoff"
+	"github.com/dilgerma/scope/common/fs"
+	"github.com/dilgerma/scope/common/xfer"
+	"github.com/dilgerma/scope/report"
 )
 
 // Exposed for testing

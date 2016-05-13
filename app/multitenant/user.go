@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/weaveworks/scope/app"
+	"github.com/dilgerma/scope/app"
 )
 
 // ErrUserIDNotFound should be returned by a UserIDer when it fails to ID the

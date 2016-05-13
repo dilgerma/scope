@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 func main() {

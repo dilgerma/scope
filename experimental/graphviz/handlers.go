@@ -10,8 +10,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/weaveworks/scope/render/detailed"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/render/detailed"
+	"github.com/dilgerma/scope/report"
 )
 
 func dot(w io.Writer, t detailed.NodeSummaries) {

@@ -13,7 +13,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/ugorji/go/codec"
 
-	"github.com/weaveworks/scope/common/exec"
+	"github.com/dilgerma/scope/common/exec"
 )
 
 // Client for Weave Net API

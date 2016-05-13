@@ -9,8 +9,8 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"golang.org/x/net/context"
 
-	"github.com/weaveworks/scope/common/mtime"
-	"github.com/weaveworks/scope/common/xfer"
+	"github.com/dilgerma/scope/common/mtime"
+	"github.com/dilgerma/scope/common/xfer"
 )
 
 const (

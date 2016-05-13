@@ -10,7 +10,7 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/ugorji/go/codec"
 
-	"github.com/weaveworks/scope/common/mtime"
+	"github.com/dilgerma/scope/common/mtime"
 )
 
 const (

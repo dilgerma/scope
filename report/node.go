@@ -3,7 +3,7 @@ package report
 import (
 	"time"
 
-	"github.com/weaveworks/scope/common/mtime"
+	"github.com/dilgerma/scope/common/mtime"
 )
 
 // Node describes a superset of the metadata that probes can collect about a

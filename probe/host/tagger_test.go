@@ -3,8 +3,8 @@ package host_test
 import (
 	"testing"
 
-	"github.com/weaveworks/scope/probe/host"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe/host"
+	"github.com/dilgerma/scope/report"
 )
 
 func TestTagger(t *testing.T) {

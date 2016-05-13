@@ -10,8 +10,8 @@ import (
 
 	linuxproc "github.com/c9s/goprocinfo/linux"
 
-	"github.com/weaveworks/scope/common/marshal"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/common/marshal"
+	"github.com/dilgerma/scope/report"
 )
 
 const kb = 1024

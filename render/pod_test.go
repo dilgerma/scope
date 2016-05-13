@@ -3,12 +3,12 @@ package render_test
 import (
 	"testing"
 
-	"github.com/weaveworks/scope/probe/kubernetes"
-	"github.com/weaveworks/scope/render"
-	"github.com/weaveworks/scope/render/expected"
-	"github.com/weaveworks/scope/test"
-	"github.com/weaveworks/scope/test/fixture"
-	"github.com/weaveworks/scope/test/reflect"
+	"github.com/dilgerma/scope/probe/kubernetes"
+	"github.com/dilgerma/scope/render"
+	"github.com/dilgerma/scope/render/expected"
+	"github.com/dilgerma/scope/test"
+	"github.com/dilgerma/scope/test/fixture"
+	"github.com/dilgerma/scope/test/reflect"
 )
 
 func TestPodRenderer(t *testing.T) {

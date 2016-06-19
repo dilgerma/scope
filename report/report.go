@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/weaveworks/scope/common/xfer"
+	"github.com/dilgerma/scope/common/xfer"
 )
 
 // Names of the various topologies.

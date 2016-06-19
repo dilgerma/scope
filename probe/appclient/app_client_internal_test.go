@@ -13,9 +13,9 @@ import (
 
 	"github.com/gorilla/handlers"
 	"github.com/ugorji/go/codec"
-	"github.com/weaveworks/scope/common/xfer"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
+	"github.com/dilgerma/scope/common/xfer"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
 )
 
 func dummyServer(t *testing.T, expectedToken, expectedID string, expectedVersion string, expectedReport report.Report, done chan struct{}) *httptest.Server {
@@ -176,7 +176,7 @@ func TestAppClientDetails(t *testing.T) {
 
 // Make sure Stopping a client works even if the connection or the remote app
 // gets stuck for whatever reason.
-// See https://github.com/weaveworks/scope/issues/1576
+// See https://github.com/dilgerma/scope/issues/1576
 func TestStop(t *testing.T) {
 	var (
 		rpt            = report.MakeReport()

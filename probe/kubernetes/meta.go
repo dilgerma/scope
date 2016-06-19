@@ -5,7 +5,7 @@ import (
 
 	"k8s.io/kubernetes/pkg/api"
 
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 // These constants are keys used in node metadata

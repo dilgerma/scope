@@ -9,9 +9,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/weaveworks/scope/probe/endpoint/procspy"
-	"github.com/weaveworks/scope/probe/process"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe/endpoint/procspy"
+	"github.com/dilgerma/scope/probe/process"
+	"github.com/dilgerma/scope/report"
 )
 
 // Node metadata keys.

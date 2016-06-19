@@ -7,7 +7,7 @@ import (
 	"github.com/gorilla/mux"
 	"golang.org/x/net/context"
 
-	"github.com/weaveworks/scope/common/xfer"
+	"github.com/dilgerma/scope/common/xfer"
 )
 
 // RegisterPipeRoutes registers the pipe routes

@@ -1,8 +1,8 @@
 package app_test
 
 import (
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test/fixture"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test/fixture"
 
 	"golang.org/x/net/context"
 )

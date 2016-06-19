@@ -17,8 +17,8 @@ import (
 	docker "github.com/fsouza/go-dockerclient"
 	"github.com/ugorji/go/codec"
 
-	"github.com/weaveworks/scope/common/mtime"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/common/mtime"
+	"github.com/dilgerma/scope/report"
 )
 
 // These constants are keys used in node metadata

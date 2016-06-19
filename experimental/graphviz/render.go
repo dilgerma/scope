@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/weaveworks/scope/render"
-	"github.com/weaveworks/scope/render/detailed"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/render"
+	"github.com/dilgerma/scope/render/detailed"
+	"github.com/dilgerma/scope/report"
 )
 
 func renderTo(rpt report.Report, topology string) (detailed.NodeSummaries, error) {

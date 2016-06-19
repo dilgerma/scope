@@ -7,8 +7,8 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/armon/go-metrics"
 
-	"github.com/weaveworks/scope/probe/appclient"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe/appclient"
+	"github.com/dilgerma/scope/report"
 )
 
 const (

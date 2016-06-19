@@ -5,14 +5,14 @@ import (
 	"net"
 	"testing"
 
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/process"
-	"github.com/weaveworks/scope/render"
-	"github.com/weaveworks/scope/render/expected"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
-	"github.com/weaveworks/scope/test/fixture"
-	"github.com/weaveworks/scope/test/reflect"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/process"
+	"github.com/dilgerma/scope/render"
+	"github.com/dilgerma/scope/render/expected"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
+	"github.com/dilgerma/scope/test/fixture"
+	"github.com/dilgerma/scope/test/reflect"
 )
 
 // FilterApplication is a Renderer which filters out application nodes.

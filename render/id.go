@@ -3,7 +3,7 @@ package render
 import (
 	"strings"
 
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 // MakePseudoNodeID joins the parts of an id into the id of a pseudonode

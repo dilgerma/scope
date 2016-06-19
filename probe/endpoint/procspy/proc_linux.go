@@ -13,9 +13,9 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/armon/go-metrics"
 
-	"github.com/weaveworks/scope/common/fs"
-	"github.com/weaveworks/scope/common/marshal"
-	"github.com/weaveworks/scope/probe/process"
+	"github.com/dilgerma/scope/common/fs"
+	"github.com/dilgerma/scope/common/marshal"
+	"github.com/dilgerma/scope/probe/process"
 )
 
 var (

@@ -3,8 +3,8 @@ package docker
 import (
 	"strconv"
 
-	"github.com/weaveworks/scope/probe/process"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe/process"
+	"github.com/dilgerma/scope/report"
 )
 
 // Node metadata keys.

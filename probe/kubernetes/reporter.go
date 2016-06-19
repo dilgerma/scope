@@ -8,12 +8,12 @@ import (
 	"k8s.io/kubernetes/pkg/api"
 	"k8s.io/kubernetes/pkg/labels"
 
-	"github.com/weaveworks/scope/common/mtime"
-	"github.com/weaveworks/scope/probe"
-	"github.com/weaveworks/scope/probe/controls"
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/host"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/common/mtime"
+	"github.com/dilgerma/scope/probe"
+	"github.com/dilgerma/scope/probe/controls"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/host"
+	"github.com/dilgerma/scope/report"
 )
 
 // These constants are keys used in node metadata
@@ -238,7 +238,7 @@ func (r *Reporter) serviceTopology() (report.Topology, []Service, error) {
 //        https://github.com/kubernetes/kubernetes/issues/25533).
 //        The right way of fixing this is performing DNAT mapping on persistent
 //        connections for which we don't have a robust solution
-//        (see https://github.com/weaveworks/scope/issues/1491)
+//        (see https://github.com/dilgerma/scope/issues/1491)
 func (r *Reporter) hostTopology(services []Service) report.Topology {
 	localNetworks := report.EmptyStringSet
 	for _, service := range services {

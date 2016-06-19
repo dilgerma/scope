@@ -10,10 +10,10 @@ import (
 	"github.com/ugorji/go/codec"
 	"k8s.io/kubernetes/pkg/api"
 
-	"github.com/weaveworks/scope/app"
-	"github.com/weaveworks/scope/probe/kubernetes"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test/fixture"
+	"github.com/dilgerma/scope/app"
+	"github.com/dilgerma/scope/probe/kubernetes"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test/fixture"
 )
 
 func TestAPITopology(t *testing.T) {

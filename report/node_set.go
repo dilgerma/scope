@@ -10,7 +10,7 @@ import (
 	"github.com/mndrix/ps"
 	"github.com/ugorji/go/codec"
 
-	"github.com/weaveworks/scope/test/reflect"
+	"github.com/dilgerma/scope/test/reflect"
 )
 
 // NodeSet is a set of nodes keyed on ID. Clients must use

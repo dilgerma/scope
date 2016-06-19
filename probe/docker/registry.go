@@ -10,8 +10,8 @@ import (
 	"github.com/armon/go-radix"
 	docker_client "github.com/fsouza/go-dockerclient"
 
-	"github.com/weaveworks/scope/probe/controls"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe/controls"
+	"github.com/dilgerma/scope/report"
 )
 
 // Consts exported for testing.

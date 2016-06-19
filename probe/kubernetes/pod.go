@@ -1,7 +1,7 @@
 package kubernetes
 
 import (
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 	"k8s.io/kubernetes/pkg/api"
 )
 

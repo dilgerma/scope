@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/weaveworks/scope/render"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test"
-	"github.com/weaveworks/scope/test/reflect"
+	"github.com/dilgerma/scope/render"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test"
+	"github.com/dilgerma/scope/test/reflect"
 )
 
 func TestPropagateSingleMetrics(t *testing.T) {

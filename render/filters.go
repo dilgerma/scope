@@ -3,11 +3,11 @@ package render
 import (
 	"strings"
 
-	"github.com/weaveworks/scope/common/mtime"
-	"github.com/weaveworks/scope/probe/docker"
-	"github.com/weaveworks/scope/probe/endpoint"
-	"github.com/weaveworks/scope/probe/kubernetes"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/common/mtime"
+	"github.com/dilgerma/scope/probe/docker"
+	"github.com/dilgerma/scope/probe/endpoint"
+	"github.com/dilgerma/scope/probe/kubernetes"
+	"github.com/dilgerma/scope/report"
 )
 
 // CustomRenderer allow for mapping functions that received the entire topology

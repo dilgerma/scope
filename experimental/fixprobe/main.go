@@ -10,10 +10,10 @@ import (
 
 	"github.com/ugorji/go/codec"
 
-	"github.com/weaveworks/scope/common/xfer"
-	"github.com/weaveworks/scope/probe/appclient"
-	"github.com/weaveworks/scope/report"
-	"github.com/weaveworks/scope/test/fixture"
+	"github.com/dilgerma/scope/common/xfer"
+	"github.com/dilgerma/scope/probe/appclient"
+	"github.com/dilgerma/scope/report"
+	"github.com/dilgerma/scope/test/fixture"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 package host
 
 import (
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/report"
 )
 
 // Tagger tags each node in each topology of a report with the origin host

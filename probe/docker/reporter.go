@@ -6,9 +6,9 @@ import (
 
 	docker_client "github.com/fsouza/go-dockerclient"
 
-	"github.com/weaveworks/scope/probe"
-	"github.com/weaveworks/scope/probe/host"
-	"github.com/weaveworks/scope/report"
+	"github.com/dilgerma/scope/probe"
+	"github.com/dilgerma/scope/probe/host"
+	"github.com/dilgerma/scope/report"
 )
 
 // Keys for use in Node
